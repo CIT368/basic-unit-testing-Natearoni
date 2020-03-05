@@ -82,7 +82,7 @@ public class Telephone
     * it returns the original argument.
     */
     
-   public static String format(String str)
+   public String format(String str)
    {
       // Create a StringBuilder initialized with str.
       StringBuilder strb = new StringBuilder(str);
@@ -104,4 +104,5 @@ public class Telephone
       // Return the formatted string.
       return strb.toString();
    }
+   
 }
